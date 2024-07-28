@@ -39,7 +39,7 @@ button {
 	cursor: pointer
 }
 img {
-	margin-right: 0.5rem
+	margin-right: 0.5rem;
 	width: 2rem
 }
 .hover\:text-black:hover {
