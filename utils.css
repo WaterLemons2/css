@@ -1,0 +1,47 @@
+.fixed {
+	position: fixed
+}
+.right-4 {
+	right: 1rem
+}
+.ms-auto {
+	margin-left: auto
+}
+.flex {
+	display: flex
+}
+.w-full {
+	width: 100%
+}
+.max-w-xs {
+	max-width: 20rem
+}
+.border-none {
+	border-style: none
+}
+.bg-white {
+	background-color: #fff
+}
+.p-4 {
+	padding: 1rem
+}
+.text-2xl {
+	font-size: 1.5rem;
+	line-height: 2rem
+}
+.text-gray-400 {
+	color: #9ca3af
+}
+.shadow {
+	box-shadow: 0 1px 3px 0 #0000001a
+}
+button {
+	cursor: pointer
+}
+img {
+	margin-right: 0.5rem
+	width: 2rem
+}
+.hover\:text-black:hover {
+	color: #000
+}
