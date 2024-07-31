@@ -1,4 +1,4 @@
-const toast = document.getElementById('#toast');
+const toast = document.querySelector('#toast');
 
 toast.querySelector('img').onerror = function () {
   this.remove();
