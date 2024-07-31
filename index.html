@@ -1,16 +1,23 @@
 <!DOCTYPE html>
+
 <head>
-<link rel="stylesheet" href="utils.css" />
+  <link rel="stylesheet" href="utils.css" />
+  <script defer src="index.js"></script>
 </head>
 
 <body>
-<div id="toast" class="fixed right-4 flex w-full max-w-xs bg-white p-4 shadow">
-  <img src="https://github.com/chrome49/icons/raw/main/icons/warning.svg" onerror="this.remove()" />
-  <span>
-    <b>标题</b><br />
-    描述
-  </span>
+  <div id="toast" class="fixed right-4 flex w-full max-w-xs bg-white p-4 shadow">
+    <img class="mr-2 h-8 w-8" src="https://github.com/chrome49/icons/raw/main/icons/red-x.svg"
+      onerror="this.remove()" />
+    <span>
+      <b>标题</b><br />
+      机会稍纵即逝 机会稍纵即逝 机会稍纵即逝
+    </span>
 
-  <button class="ms-auto border-none bg-white text-2xl text-gray-400 hover:text-black">&times;</button>
-</div>
+    <button
+      class="mb-auto ms-auto cursor-pointer border-none bg-white text-2xl leading-none text-gray-400 hover:bg-gray-100"
+      onclick="this.parentElement.remove()">
+      &times;
+    </button>
+  </div>
 </body>
