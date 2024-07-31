@@ -38,6 +38,10 @@
 	max-width: 20rem
 }
 
+.rounded-xl {
+	border-radius: 0.75rem
+}
+
 .cursor-pointer {
 	cursor: pointer
 }
