@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+      .container {
+        position: fixed;
+        right: 1rem;
+        padding: 1rem;
+        box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.5);
+      }
+
+      .transition-transform {
+        transition: transform 1s;
+      }
+      .translate-x-full {
+        transform: translateX(100%);
+      }
+    </style>
+    <title>Slide</title>
+  </head>
+  <body>
+    <script>
+      const container = document.createElement('div');
+      container.textContent = '机会稍纵即逝 机会稍纵即逝 机会稍纵即逝';
+      container.classList.add(
+        'container',
+        'translate-x-full',
+        'transition-transform'
+      );
+      document.body.append(container);
+
+      requestAnimationFrame(() =>
+        container.classList.toggle('translate-x-full')
+      );
+    </script>
+  </body>
+</html>
